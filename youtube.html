@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="youtube.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+        <div class="logo"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </div>
+        <div class="user"></div>
+    </header>
+    <div class="container">
+        <!-- video -->
+        <section class="video">
+            <video controls width = "100%">
+                <source src = "video.mp4">
+            </video>
+        </section>
+        <!-- info -->
+        <section class="info">
+            <div id="infotext">
+                <p id="hashtag">#Lorem</p>
+                <p id="hashtag">#ipsum</p>
+                <p id="hashtag">#dolor</p>
+                <i class="fa-solid fa-caret-down"></i>
+                <p id="vtitle">
+                  Lorem ipsum dolor sit amet, con sectet adipiscing elit eius mod...
+                </p>
+                <p id="view">87K Views 3,123 comments</p>
+            </div>
+            <div id="infobutton">
+                <figure id="infob">
+                  <div id="infoc"></div>
+                  <figcaption id="infot">1.6K</figcaption>
+                </figure>
+                <figure id="infob">
+                  <div id="infoc"></div>
+                  <figcaption id="infot">120</figcaption>
+                </figure>
+                <figure id="infob">
+                  <div id="infoc"></div>
+                  <figcaption id="infot">Share</figcaption>
+                </figure>
+                <figure id="infob">
+                  <div id="infoc"></div>
+                  <figcaption id="infot">Save</figcaption>
+                </figure>
+                <figure id="infob">
+                  <div id="infoc"></div>
+                  <figcaption id="infot">Report</figcaption>
+                </figure>
+            </div>
+            <hr>
+            <div id="infoaccount">
+                <img id="infoaccount_img" src="image.jpg"></img>
+                <div id="infoaccount_text">
+                  <p id="infoaccount_name">Lorem ipsum</p>
+                  <p id="infoaccount_sub">12M subscribers</p>
+                </div>
+                <p id="infoaccount_subbutton">SUBSCRIBE</p>
+            </div>
+            <hr>
+        </section>
+        <!-- comments -->
+        <!-- 프로필 사진, 댓글, 좋아요/싫어요 부분을 3개의 column으로-->
+        <!-- 하나의 댓글은 하나의 row로 보고 grid를 만들어 띄움-->
+        <section class="comments">
+          <p id="comments_title">Comments 332</p>
+          <div class="comments_main">
+            <div class="comments_profile1">
+              <img id="comments_img" src="image.jpg"></img>
+            </div>
+            <div class="comments_comment1">
+              <div id="comments_name_date">
+              <!-- 일렬로 띄우기 위해 div로 묶어 flex 속성 적용 -->
+                <p id="comments_name">Lorem ipsum</p>
+                <p id="comments_date">1 month ago</p>
+              </div>
+              <p id="comments_review">
+                sed quia non numquam eius modi tempora incididunt
+                ut labore et dolore magnam aliquam quaerat at voluptatem.
+              </p>
+              <p id="comments_following">Following comments +13</p>
+            </div>
+            <div class="comments_likedislike">
+              <figure id="comments_button">
+              <!-- 버튼과 아래 문구가 같이 있도록 figure로 묶음 -->
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">1.6K</figcaption>
+              </figure>
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">120</figcaption>
+              </figure>
+            </div>
+            <!-- 아래부터 반복 -->
+            <div class="comments_profile2">
+              <img id="comments_img" src="image.jpg"></img>
+            </div>
+            <div class="comments_comment2">
+              <div id="comments_name_date">
+                <p id="comments_name">Lorem ipsum</p>
+                <p id="comments_date">1 month ago</p>
+              </div>
+              <p id="comments_review">
+                sed quia non numquam eius modi tempora incididunt?
+              </p>
+              <p id="comments_following">Following comments +2</p>
+            </div>
+            <div class="comments_likedislike">
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">1.6K</figcaption>
+              </figure>
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">120</figcaption>
+              </figure>
+            </div>
+            <div class="comments_profile3">
+              <img id="comments_img" src="image.jpg"></img>
+            </div>
+            <div class="comments_comment3">
+              <div id="comments_name_date">
+                <p id="comments_name">Lorem ipsum</p>
+                <p id="comments_date">1 month ago</p>
+              </div>
+              <p id="comments_review">
+                sed quia non numquam eius modi tempora incididunt
+                ut labore et sed quia non numquam eius modi tempora incididunt
+                ut labore et dolore magnam aliquam quaerat at voluptatem dolore magnam aliquam quaerat at voluptatem.
+              </p>
+              <p id="comments_following">Following comments +13</p>
+            </div>
+            <div class="comments_likedislike">
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">1.6K</figcaption>
+              </figure>
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">120</figcaption>
+              </figure>
+            </div>
+            <div class="comments_profile4">
+              <img id="comments_img" src="image.jpg"></img>
+            </div>
+            <div class="comments_comment4">
+              <div id="comments_name_date">
+                <p id="comments_name">Lorem ipsum</p>
+                <p id="comments_date">1 month ago</p>
+              </div>
+              <p id="comments_review">
+                sed quia non numquam eius modi incididun.
+              </p>
+              <p id="comments_following">Following comments +2</p>
+            </div>
+            <div class="comments_likedislike">
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">1.6K</figcaption>
+              </figure>
+              <figure id="comments_button">
+                <div id="comments_circle"></div>
+                <figcaption id="comments_buttontext">120</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <!-- recommended -->
+        <section class="recommended">
+          <div id="recommended_title">
+            <p>Recommended</p>          
+          </div>
+          <div id="recommended_main">
+            <div id="recommended_content1">
+              <img id="recommended_img" src="image.jpg"></img>
+              <div id="recommended_text">
+                <p id="recom_vtitle">Incidunt ut labore et doloire magnam allquam</p>
+                <p id="recom_vname">Jarod Hawkins</p>
+                <p id="recom_views">87K views</p>
+              </div>
+            </div>
+            <div id="recommended_content2">
+              <img id="recommended_img" src="image.jpg"></img>
+              <div id="recommended_text">
+                <p id="recom_vtitle">Incidunt ut labore et doloire magnam allquam</p>
+                <p id="recom_vname">Jarod Hawkins</p>
+                <p id="recom_views">87K views</p>
+              </div>
+            </div>
+            <div id="recommended_content3">
+              <img id="recommended_img" src="image.jpg"></img>
+              <div id="recommended_text">
+                <p id="recom_vtitle">Incidunt ut labore et doloire magnam allquam</p>
+                <p id="recom_vname">Jarod Hawkins</p>
+                <p id="recom_views">87K views</p>
+              </div>
+            </div>
+            <div id="recommended_content4">
+              <img id="recommended_img" src="image.jpg"></img>
+              <div id="recommended_text">
+                <p id="recom_vtitle">Incidunt ut labore et doloire magnam allquam</p>
+                <p id="recom_vname">Jarod Hawkins</p>
+                <p id="recom_views">87K views</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+    </div>
+    </div>
+  </body>
+</html>
